@@ -9,6 +9,9 @@ The application is built using Swift and leverages Apple's UIKit for the user in
 
 ![Simulator Screenshot - iPhone 15 Pro - 2024-02-07 at 14 28 45](https://github.com/PatriciaCostin/UnsplashApp/assets/124291922/331f7ff9-c521-403e-8607-e9585a451d0c)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-02-07 at 14 27 26](https://github.com/PatriciaCostin/UnsplashApp/assets/124291922/8696b6f1-cf89-4a43-aedf-b8d8da8415ed)
+
+
 ![Simulator Screenshot - iPhone 15 Pro - 2024-02-07 at 14 28 11](https://github.com/PatriciaCostin/UnsplashApp/assets/124291922/1a31e35c-c94f-44d8-9bea-b19bfe209aa7)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-02-07 at 14 28 23](https://github.com/PatriciaCostin/UnsplashApp/assets/124291922/c272b18d-aacd-46a7-ad8e-88f06d284aad)
+
 ![Simulator Screenshot - iPhone 15 Pro - 2024-02-07 at 14 28 31](https://github.com/PatriciaCostin/UnsplashApp/assets/124291922/e448da1d-a22f-4799-85f6-1d10c0512ffb)
