@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateAccountViewController" customModule="Unsplash" customModuleProvider="target">
+            <connections>
+                <outlet property="adjustableConstraint" destination="zMB-e1-Dss" id="XDV-dw-vEI"/>
+                <outlet property="emailField" destination="Bbj-E9-nv7" id="fB5-iJ-TtG"/>
+                <outlet property="formView" destination="q9f-Lo-bGa" id="b7l-3D-0Ss"/>
+                <outlet property="passwordField" destination="zSp-H0-J7m" id="a6e-BA-hJy"/>
+                <outlet property="repeatPasswordField" destination="ydc-RY-9FR" id="OWq-b4-YYS"/>
+                <outlet property="view" destination="iN0-l3-epB" id="4Za-Gf-Wxg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="q9f-Lo-bGa">
+                    <rect key="frame" x="40" y="280.33333333333337" width="313" height="267.33333333333337"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Account" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8wP-O6-rIz">
+                            <rect key="frame" x="0.0" y="0.0" width="313" height="38.333333333333336"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="6mP-jc-X3s">
+                            <rect key="frame" x="0.0" y="56.333333333333371" width="313" height="211"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="zFL-i2-uoc">
+                                    <rect key="frame" x="0.0" y="0.0" width="313" height="160"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bbj-E9-nv7" customClass="CustomTextField" customModule="Unsplash" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="313" height="53.333333333333336"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="53.329999999999998" id="LKD-32-gth"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSp-H0-J7m" customClass="CustomTextField" customModule="Unsplash" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="53.333333333333314" width="313" height="53.333333333333343"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="53.329999999999998" id="UIi-fr-51l"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ydc-RY-9FR" customClass="CustomTextField" customModule="Unsplash" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="106.66666666666661" width="313" height="53.333333333333329"/>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="53.329999999999998" id="AXS-sY-VJA"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6C-Tf-J3J" customClass="CustomButton" customModule="Unsplash" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="163" width="313" height="48"/>
+                                    <color key="backgroundColor" name="buttonDefaultBackground"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="48" id="q5j-j7-dg7"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Create Account">
+                                        <color key="titleColor" name="buttonDefaultTitle"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="createAccount:" destination="-1" eventType="touchUpInside" id="2Ho-rf-o3T"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="q9f-Lo-bGa" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PBB-PT-PVI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="q9f-Lo-bGa" secondAttribute="trailing" constant="40" id="nVj-pK-BUE"/>
+                <constraint firstItem="q9f-Lo-bGa" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-12" id="zMB-e1-Dss"/>
+                <constraint firstItem="q9f-Lo-bGa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="zhd-xX-tDf"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="F6C-Tf-J3J">
+            <size key="intrinsicContentSize" width="-1" height="48"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="buttonDefaultBackground">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.94900000095367432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="buttonDefaultTitle">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController" customModule="Unsplash" customModuleProvider="target">
+            <connections>
+                <outlet property="logOutButton" destination="YFe-5G-CCe" id="vgq-kC-w5h"/>
+                <outlet property="view" destination="22y-kv-HK4" id="IBn-Fn-TYA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="22y-kv-HK4">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HQ2-ca-AJk">
+                    <rect key="frame" x="16" y="59" width="361" height="164"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrF-N3-cSX" customClass="CustomButton" customModule="Unsplash" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="ayi-K9-lb6"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Change my password">
+                                <color key="titleColor" name="buttonDefaultTitle"/>
+                            </state>
+                            <connections>
+                                <action selector="changeMyPassword:" destination="-1" eventType="touchUpInside" id="OR6-Hv-6bF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ic-I6-QqH" customClass="CustomButton" customModule="Unsplash" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="58" width="361" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="G72-Ai-OHc"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Delete persistent data">
+                                <color key="titleColor" name="buttonDefaultTitle"/>
+                            </state>
+                            <connections>
+                                <action selector="deletePersistentData:" destination="-1" eventType="touchUpInside" id="3IE-Sw-mBL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" role="cancel" translatesAutoresizingMaskIntoConstraints="NO" id="YFe-5G-CCe" customClass="CustomButton" customModule="Unsplash" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="116" width="361" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="zwJ-GJ-bZr"/>
+                            </constraints>
+                            <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Log out">
+                                <color key="titleColor" name="buttonDefaultTitle"/>
+                            </state>
+                            <connections>
+                                <action selector="logOut:" destination="-1" eventType="touchUpInside" id="l5u-nH-njr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="abL-WU-P93"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="HQ2-ca-AJk" firstAttribute="top" secondItem="abL-WU-P93" secondAttribute="top" id="6Fu-14-IjH"/>
+                <constraint firstItem="abL-WU-P93" firstAttribute="trailing" secondItem="HQ2-ca-AJk" secondAttribute="trailing" constant="16" id="G79-ms-43r"/>
+                <constraint firstItem="HQ2-ca-AJk" firstAttribute="leading" secondItem="abL-WU-P93" secondAttribute="leading" constant="16" id="HXe-NU-JKP"/>
+            </constraints>
+            <point key="canvasLocation" x="231" y="32"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="6ic-I6-QqH">
+            <size key="intrinsicContentSize" width="-1" height="48"/>
+        </designable>
+        <designable name="YFe-5G-CCe">
+            <size key="intrinsicContentSize" width="-1" height="48"/>
+        </designable>
+        <designable name="yrF-N3-cSX">
+            <size key="intrinsicContentSize" width="-1" height="48"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="buttonDefaultTitle">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
