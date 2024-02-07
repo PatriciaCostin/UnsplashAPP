@@ -1,4 +1,4 @@
-# Unsplahs-API
+# Unsplash-API
 
 UnsplashApp is a photo browsing and liking application leveraging the Unsplash API for photo-related functionalities. The app follows the [Model-View-ViewModel (MVVM) ](https://www.youtube.com/watch?v=sLHVxnRS75w "‌")architecture and coordination between different sections of the app is handled with the help of Coordinators.
 
